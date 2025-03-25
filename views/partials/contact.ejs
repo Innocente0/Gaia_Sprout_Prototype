@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAIA SPROUT - <%= title %></title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main class="contact-page">
+    <section class="contact-header">
+      <div class="contact-logo">
+        <img src="/images/logo.png" alt="GAIA SPROUT Logo">
+      </div>
+      <div class="contact-banner">
+        <!-- A background image can be set via CSS -->
+      </div>
+    </section>
+    <section class="contact-form-section">
+      <form action="/contact" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit">Send Request</button>
+      </form>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

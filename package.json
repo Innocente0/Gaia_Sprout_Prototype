@@ -1,0 +1,17 @@
+{
+    "name": "gaia-sprout-app",
+    "version": "1.0.0",
+    "description": "Gaia Sprout Telemedicine Platform",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.20.0",
+      "dotenv": "^16.0.3",
+      "ejs": "^3.1.8",
+      "express": "^4.18.2",
+      "mongoose": "^6.8.0"
+    }
+  }
+  

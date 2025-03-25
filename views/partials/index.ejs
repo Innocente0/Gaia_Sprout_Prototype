@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAIA SPROUT - <%= title %></title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Optionally add any front-end libraries here -->
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main>
+    <!-- Main banner or hero section -->
+    <section class="hero">
+      <h1>Welcome to GAIA SPROUT</h1>
+      <p>Bridging gaps in healthcare delivery for a healthier Rwanda.</p>
+    </section>
+
+    <!-- Body content section with 3 pictures -->
+    <section class="content-section">
+      <div class="content-item">
+        <img src="/images/service1.jpg" alt="Service 1">
+        <h3>Mental Health Support Appointment</h3>
+        <p>Access expert mental health consultations anytime, anywhere.</p>
+      </div>
+      <div class="content-item">
+        <img src="/images/service2.jpg" alt="Service 2">
+        <h3>Chronic Disease Management</h3>
+        <p>Integrate wearable devices for continuous monitoring and care.</p>
+      </div>
+      <div class="content-item">
+        <img src="/images/service3.jpg" alt="Service 3">
+        <h3>Home-Based Nursing</h3>
+        <p>Receive compassionate home care and remote patient monitoring.</p>
+      </div>
+    </section>
+
+    <!-- Additional information section about the project -->
+    <section class="about-project">
+      <h2>About Gaia Sprout</h2>
+      <p>
+        I strive to bridge the gap in improving healthcare accessibility and affordability
+        for the Rwandan population by developing 'Gaia Sprout' – a user-friendly platform that
+        leverages telemedicine, proactive disease prevention, and remote patient monitoring to
+        empower healthier lives.
+      </p>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>
