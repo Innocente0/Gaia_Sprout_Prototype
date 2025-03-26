@@ -2,16 +2,27 @@
     "name": "gaia-sprout-app",
     "version": "1.0.0",
     "description": "Gaia Sprout Telemedicine Platform",
-    "main": "server.js",
+    "main": "node.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "body-parser": "^1.20.0",
-      "dotenv": "^16.0.3",
-      "ejs": "^3.1.8",
-      "express": "^4.18.2",
-      "mongoose": "^6.8.0"
-    }
-  }
-  
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2",
+        "mongoose": "^6.8.0"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Innocente0/Gaia_Sprout_Prototype.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Innocente0/Gaia_Sprout_Prototype/issues"
+    },
+    "homepage": "https://github.com/Innocente0/Gaia_Sprout_Prototype#readme"
+}
